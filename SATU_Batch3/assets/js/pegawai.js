@@ -1,0 +1,1 @@
+document.getElementById('profil').innerHTML='<h2>Profil akan dibaca dari pegawai.json</h2>';document.getElementById('lihatRKK').onclick=()=>alert('Modul RKK akan terhubung pada sinkronisasi');
