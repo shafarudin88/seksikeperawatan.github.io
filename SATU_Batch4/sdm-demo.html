@@ -1,0 +1,13 @@
+<!DOCTYPE html><html><head><meta charset='utf-8'><title>Demo SDM</title></head>
+<body><h2>Demo SDM</h2>
+<input id='q' placeholder='Cari...'>
+<ul id='hasil'></ul>
+<script>
+let data=[];
+fetch('data/pegawai.json').then(r=>r.json()).then(j=>{data=j;render(j);});
+const q=document.getElementById('q');
+const h=document.getElementById('hasil');
+function render(arr){h.innerHTML=arr.map(p=>`<li>${p.id} - ${p.nama} (${p.unit})</li>`).join('');}
+q.oninput=()=>{const v=q.value.toLowerCase();render(data.filter(p=>Object.values(p).join(' ').toLowerCase().includes(v)));};
+</script>
+</body></html>
