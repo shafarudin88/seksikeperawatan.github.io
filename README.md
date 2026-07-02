@@ -1,1 +1,0 @@
-# seksikeperawatan.github.io
