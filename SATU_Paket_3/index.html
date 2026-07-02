@@ -1,0 +1,26 @@
+<!DOCTYPE html><html lang="id"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SATU</title>
+<link rel="stylesheet" href="assets/css/style.css">
+</head><body>
+<header class="topbar"><h1>SATU</h1><p>Sistem Administrasi Terpadu Unit Keperawatan</p></header>
+<nav class="sidebar">
+<a href="#dashboard">Dashboard</a>
+<a href="#pegawai">Data Pegawai</a>
+</nav>
+<main>
+<section id="dashboard-page" class="page">
+<h2>Dashboard</h2>
+<div id="statistik"></div>
+</section>
+<section id="pegawai-page" class="page" hidden>
+<h2>Data Pegawai</h2>
+<input id="search" placeholder="Cari nama atau ID Pegawai">
+<table>
+<thead><tr><th>ID</th><th>Nama</th><th>Profesi</th><th>Unit</th></tr></thead>
+<tbody id="pegawai-body"></tbody>
+</table>
+</section>
+</main>
+<script type="module" src="assets/js/app.js"></script>
+</body></html>
