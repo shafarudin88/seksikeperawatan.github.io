@@ -3,160 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>SATU | Sistem Administrasi Terpadu Unit Keperawatan</title>
-
     <meta name="description" content="Portal Administrasi Terpadu Unit Keperawatan RSUD Tuan Besar Syarif Idrus">
-
     <link rel="icon" href="assets/img/favicon.png">
-
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
-
 <body>
-
 <div id="app">
-
-    <header class="topbar">
-
-        <div class="logo-area">
-            <img src="assets/img/logo-rs.png"
-                 alt="Logo RSUD"
-                 class="logo">
-
-            <div>
-                <h1>SATU</h1>
-                <p>Sistem Administrasi Terpadu Unit Keperawatan</p>
-            </div>
-        </div>
-
-    </header>
-
-    <nav class="sidebar">
-
-        <ul>
-
-            <li>
-                <a href="#dashboard" data-page="dashboard">
-                    Dashboard
-                </a>
-            </li>
-
-            <li>
-                <a href="#pegawai" data-page="pegawai">
-                    Data Pegawai
-                </a>
-            </li>
-
-            <li>
-                <a href="#str" data-page="str">
-                    STR
-                </a>
-            </li>
-
-            <li>
-                <a href="#sip" data-page="sip">
-                    SIP
-                </a>
-            </li>
-
-            <li>
-                <a href="#rkk" data-page="rkk">
-                    RKK
-                </a>
-            </li>
-
-            <li>
-                <a href="#penugasan" data-page="penugasan">
-                    Penugasan
-                </a>
-            </li>
-
-            <li>
-                <a href="#sop" data-page="sop">
-                    SOP
-                </a>
-            </li>
-
-        </ul>
-
-    </nav>
-
-    <main id="content">
-
-        <section id="dashboard-page" class="page">
-
-            <h2>Dashboard</h2>
-
-            <div id="dashboard-container"></div>
-
-        </section>
-
-        <section id="pegawai-page"
-                 class="page"
-                 hidden>
-
-            <h2>Data Pegawai</h2>
-
-            <div id="pegawai-container"></div>
-
-        </section>
-
-        <section id="str-page"
-                 class="page"
-                 hidden>
-
-            <h2>STR</h2>
-
-            <div id="str-container"></div>
-
-        </section>
-
-        <section id="sip-page"
-                 class="page"
-                 hidden>
-
-            <h2>SIP</h2>
-
-            <div id="sip-container"></div>
-
-        </section>
-
-        <section id="rkk-page"
-                 class="page"
-                 hidden>
-
-            <h2>RKK</h2>
-
-            <div id="rkk-container"></div>
-
-        </section>
-
-        <section id="penugasan-page"
-                 class="page"
-                 hidden>
-
-            <h2>Penugasan</h2>
-
-            <div id="penugasan-container"></div>
-
-        </section>
-
-        <section id="sop-page"
-                 class="page"
-                 hidden>
-
-            <h2>SOP</h2>
-
-            <div id="sop-container"></div>
-
-        </section>
-
-    </main>
-
+<header class="topbar">
+<div class="logo-area">
+<img src="assets/img/logo-rs.png" alt="Logo RSUD" class="logo">
+<div>
+<h1>SATU</h1>
+<p>Sistem Administrasi Terpadu Unit Keperawatan</p>
 </div>
+</div>
+</header>
 
+<nav class="sidebar">
+<ul>
+<li><a href="#dashboard" data-page="dashboard">Dashboard</a></li>
+<li><a href="#pegawai" data-page="pegawai">Data Pegawai</a></li>
+<li><a href="#str" data-page="str">STR</a></li>
+<li><a href="#sip" data-page="sip">SIP</a></li>
+<li><a href="#rkk" data-page="rkk">RKK</a></li>
+<li><a href="#penugasan" data-page="penugasan">Penugasan</a></li>
+<li><a href="#sop" data-page="sop">SOP</a></li>
+</ul>
+</nav>
+
+<main id="content">
+<section id="dashboard-page" class="page">
+<h2>Dashboard</h2>
+<div id="dashboard-container"></div>
+</section>
+
+<section id="pegawai-page" class="page" hidden><h2>Data Pegawai</h2><div id="pegawai-container"></div></section>
+<section id="str-page" class="page" hidden><h2>STR</h2><div id="str-container"></div></section>
+<section id="sip-page" class="page" hidden><h2>SIP</h2><div id="sip-container"></div></section>
+<section id="rkk-page" class="page" hidden><h2>RKK</h2><div id="rkk-container"></div></section>
+<section id="penugasan-page" class="page" hidden><h2>Penugasan</h2><div id="penugasan-container"></div></section>
+<section id="sop-page" class="page" hidden><h2>SOP</h2><div id="sop-container"></div></section>
+</main>
+</div>
 <script type="module" src="assets/js/app.js"></script>
-
 </body>
 </html>
