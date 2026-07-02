@@ -1,0 +1,5 @@
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#f5f7fa}
+.topbar{background:#0b5cab;color:#fff;padding:20px}
+.sidebar{display:flex;gap:10px;padding:12px;background:#fff;border-bottom:1px solid #ddd;flex-wrap:wrap}
+.sidebar a{text-decoration:none;color:#0b5cab;font-weight:bold}
+#content{padding:24px}
