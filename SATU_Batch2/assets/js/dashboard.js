@@ -1,0 +1,1 @@
+document.getElementById('dashboard').innerHTML='<h2>Dashboard akan membaca dashboard.json</h2>';

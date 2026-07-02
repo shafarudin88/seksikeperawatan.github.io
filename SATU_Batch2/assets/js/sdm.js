@@ -1,0 +1,1 @@
+document.getElementById('pegawai-list').innerHTML='<p>Data pegawai akan ditampilkan dari pegawai.json</p>';
